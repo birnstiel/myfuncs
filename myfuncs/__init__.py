@@ -1,3 +1,4 @@
-from .functions import mypower as f
+from .functions import mypower as fct
+__version__ = '0.0.1'
 
-__all__ = ['f']
+__all__ = ['fct']
