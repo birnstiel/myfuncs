@@ -1,4 +1,3 @@
-doc/*.slides.html
 .ipynb_checkpoints/
 myfuncs.egg-info/
 myfuncs/__pycache__/

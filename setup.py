@@ -36,7 +36,6 @@ if __name__ == "__main__":
         author_email='til.birnstiel@lmu.de',
         license='GPLv3',
         packages=[PACKAGENAME],
-        package_dir={PACKAGENAME: PACKAGENAME},
         package_data={PACKAGENAME: [
             'data1/data.txt',
             'data2/data.txt',
@@ -45,6 +44,5 @@ if __name__ == "__main__":
         install_requires=[
             'pytest',
             'numpy'],
-        zip_safe=True,
         python_requires='>=3.6',
     )
