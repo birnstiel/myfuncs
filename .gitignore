@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 myfuncs.egg-info/
 myfuncs/__pycache__/
+myfuncs/*.so
