@@ -1,4 +1,0 @@
-include Readme.md
-include LICENSE
-include notebooks/*.ipynb
-.gitignore
