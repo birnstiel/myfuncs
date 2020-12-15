@@ -14742,7 +14742,8 @@ div.jp-OutputPrompt {
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="My-example">My example<a class="anchor-link" href="#My-example">&#182;</a></h3>
+<h3 id="My-example">My example<a class="anchor-link" href="#My-example">&#182;</a></h3><p>note: here we include package data and we set an entry point for a console script. So after installing this package, the command <code>myfuncshello</code> is available from the command line.</p>
+
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -14891,6 +14892,11 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
             <span class="s1">&#39;pytest&#39;</span><span class="p">,</span>
             <span class="s1">&#39;numpy&#39;</span><span class="p">],</span>
         <span class="n">python_requires</span><span class="o">=</span><span class="s1">&#39;&gt;=3.6&#39;</span><span class="p">,</span>
+        <span class="n">entry_points</span><span class="o">=</span><span class="p">{</span>
+            <span class="s1">&#39;console_scripts&#39;</span><span class="p">:</span> <span class="p">[</span>
+                <span class="s1">&#39;myfuncshello = myfuncs.script:main&#39;</span><span class="p">,</span>
+            <span class="p">],</span>
+        <span class="p">}</span>
     <span class="p">)</span>
 </pre></div>
 
