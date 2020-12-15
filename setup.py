@@ -45,4 +45,9 @@ if __name__ == "__main__":
             'pytest',
             'numpy'],
         python_requires='>=3.6',
+        entry_points={
+            'console_scripts': [
+                'myfuncshello = myfuncs.script:main',
+            ],
+        }
     )
